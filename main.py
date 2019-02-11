@@ -1,9 +1,4 @@
 import random
-# Star Wars Game
-
-# List Heroes and Villains
-heroChar = ["Luke", "Leia", "Obi-Wan"]
-villChar = ["Darth Vader", "Count Dooku"]
 
 def randHeroChoice():
     randHero = random.choice(heroChar)
@@ -25,9 +20,18 @@ def playerDamage():
     rand = random.randint(0, 10)
     return rand
 
+def enemyDamage():
+    randE = random.randint(0, 10)
+    return randE
+
 # Initialise Health Variables
 playerHealth = 100
 enemyHealth = 100
+
+# List Heroes and Villains
+heroChar = ["Luke", "Leia", "Obi-Wan"]
+villChar = ["Darth Vader", "Count Dooku"]
+
 
 # Character Selection
 HoV = input('Please select Heroes or Villains(h OR v)')
@@ -41,6 +45,8 @@ if HoV == 'h':
             print("You have " + str(playerHealth) + " health")
             playerHealth -= playerDamage()
             print("You now have " + str(playerHealth))
+            enemyHealth -= enemyDamage()
+            print("Enemy now has " + str(enemyHealth) + " health")
     elif hSelect == 'Leia':
         print("Your adversary is " + randVillainChoice())
         duel = input("Would you like to start the duel? (y or n)")
@@ -48,6 +54,8 @@ if HoV == 'h':
             print("You have " + str(playerHealth) + " health")
             playerHealth -= playerDamage()
             print("You now have " + str(playerHealth))
+            enemyHealth -= enemyDamage()
+            print("Enemy now has " + str(enemyHealth) + " health")
     elif hSelect == 'Obi-Wan':
         print("Your adversary is " + randVillainChoice())
         duel = input("Would you like to start the duel? (y or n)")
@@ -55,6 +63,8 @@ if HoV == 'h':
             print("You have " + str(playerHealth) + " health")
             playerHealth -= playerDamage()
             print("You now have " + str(playerHealth))
+            enemyHealth -= enemyDamage()
+            print("Enemy now has " + str(enemyHealth) + " health")
 
 elif HoV == 'v':
     printVillains()
@@ -66,6 +76,8 @@ elif HoV == 'v':
             print("You have " + str(playerHealth) + " health")
             playerHealth -= playerDamage()
             print("You now have " + str(playerHealth))
+            enemyHealth -= enemyDamage()
+            print("Enemy now has " + str(enemyHealth) + " health")
     elif vSelect == 'Count Dooku':
         print("Your adversary is " + randHeroChoice())
         duel = input("Would you like to start the duel? (y or n)")
@@ -73,6 +85,8 @@ elif HoV == 'v':
             print("You have " + str(playerHealth) + " health")
             playerHealth -= playerDamage()
             print("You now have " + str(playerHealth))
+            enemyHealth -= enemyDamage()
+            print("Enemy now has " + str(enemyHealth) + " health")
 
 else:
     print("Incorrect Input, Please try again!")
