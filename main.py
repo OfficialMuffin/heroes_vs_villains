@@ -1,6 +1,4 @@
-def main():
-    pass
-
+import game
 
 if __name__ == '__main__':
-    main()
+    game.game()
