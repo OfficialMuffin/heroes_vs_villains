@@ -3,28 +3,30 @@
 
 DISCLAIMER: This program has no affiliation with Star Wars. it is purely a fan made project
 
-Here's a sample README file for your Star Wars Battle Simulator project on GitHub:
-Star Wars Battle Simulator
+Welcome to Heroes vs. Villains! This Python-based game lets you choose your favorite hero or villain from the Star Wars universe and engage in epic battles. Each character comes with a set of unique abilities, and you must carefully manage your cooldowns, health, and tactics to outsmart your opponent.
 
-Welcome to the Star Wars Battle Simulator! This Python-based game lets you choose your favorite hero or villain from the Star Wars universe and engage in epic battles. Each character comes with a set of unique abilities, and you must carefully manage your cooldowns, health, and tactics to outsmart your opponent.
-Features
+## Features
 
-    Character Selection: Choose between heroes and villains from the Star Wars universe.
-    Unique Abilities: Each character has multiple unique abilities, each with its own damage output and cooldown period.
-    Turn-Based Combat: The battle is turn-based, with each character attacking or using abilities on their turn.
-    Cooldown Management: Abilities have cooldowns, so plan your actions wisely!
-    Random Opponents: Face off against randomly selected enemies to keep each battle exciting and unpredictable.
+- **Character Selection:** Choose between heroes and villains from the Star Wars universe.
+- **Unique Abilities:** Each character has multiple unique abilities, each with its own damage output and cooldown period.
+- **Turn-Based Combat:** The battle is turn-based, with each character attacking or using abilities on their turn.
+- **Cooldown Management:** Abilities have cooldowns, so plan your actions wisely!
+- **Random Opponents:** Face off against randomly selected enemies to keep each battle exciting and unpredictable.
 
-Installation
-Prerequisites
+## Installation
+
+### Prerequisites
 
 To run the project, you'll need to have Python 3.x installed. You can download Python from the official website: https://www.python.org/downloads/
-Clone the Repository
+
+### Clone the Repository
 
 To clone this repository to your local machine, use the following command:
 
+```bash
 git clone https://github.com/yourusername/star-wars-battle-simulator.git
 cd star-wars-battle-simulator
+```
 
 Running the Game
 
