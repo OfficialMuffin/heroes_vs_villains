@@ -28,14 +28,15 @@ git clone https://github.com/yourusername/star-wars-battle-simulator.git
 cd star-wars-battle-simulator
 ```
 
-Running the Game
+## Running the Game
 
 Once you have the project on your local machine, navigate to the project directory and run the game using Python:
 
-python game.py
+`python game.py`
 
 Follow the on-screen prompts to select your character and begin the battle!
-How to Play
+
+## How to Play
 
     Select Heroes or Villains: At the start of the game, you will be prompted to choose whether you want to play as a hero or a villain.
     Choose Your Character: Once you select your faction (Heroes or Villains), you'll choose your character from a list.
@@ -45,8 +46,8 @@ How to Play
         The goal is to defeat your opponent before they defeat you.
     Cooldowns: After using an ability, it will go on cooldown, and you’ll need to wait before you can use it again.
 
-Characters & Abilities
-Heroes
+## Characters & Abilities
+### Heroes
 
     Luke Skywalker
         Force Push: Deals 10-20 damage.
@@ -64,7 +65,7 @@ Heroes
         Quick Draw: Deals 7-17 damage.
         Blaster Barrage: Deals 18-25 damage.
 
-Villains
+### Villains
 
     Darth Vader
         Force Choke: Deals 12-22 damage.
@@ -86,9 +87,9 @@ Villains
         Explosive Rocket: Deals 20-30 damage.
         Jetpack Dive: Deals 18-28 damage.
 
-Project Structure
+## Project Structure
 
-star-wars-battle-simulator/
+Heroes vs. Villains/
 │
 ├── game.py          # Main game logic
 ├── heroes.py        # Hero characters and abilities
@@ -96,7 +97,7 @@ star-wars-battle-simulator/
 ├── character.py     # Base class for characters
 └── README.md        # Project documentation
 
-Contributing
+## Contributing
 
 We welcome contributions to improve the game! If you have any suggestions, improvements, or bug fixes, feel free to create an issue or submit a pull request.
 
@@ -106,7 +107,7 @@ We welcome contributions to improve the game! If you have any suggestions, impro
     Push to your branch (git push origin feature/your-feature).
     Create a new Pull Request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
