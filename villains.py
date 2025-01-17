@@ -1,16 +1,18 @@
 from random import choice, randint
+from config import DEFAULT_HEALTH, DAMAGE_RANGE
 
 villains = ["Darth Vader", "Count Dooku", "Darth Sidious", "Darth Maul", "Jango Fett"]
-HEALTH = 100
+
+HEALTH = DEFAULT_HEALTH
 
 def printVillains():
-    for i in range(0, len(villains)):
-        print(f"{i + 1}. {villains[i]}")
+    for i, villain in enumerate(villains, start=1):
+        print(f"{i}. {villain}")
         
 def randVillainChoice():
     randVillain = choice(villains)
     return randVillain
 
 def enemyDamage():
-    damage = randint(0, 10)
+    damage = randint(*DAMAGE_RANGE)
     return damage

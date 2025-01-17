@@ -4,8 +4,8 @@ from random import choice
 heroes = ["Luke", "Leia", "Obi-Wan Kenobi", "Han Solo"]
 
 def printHeroes():
-    for i in range(0, len(heroes)):
-        print(f"{i + 1}. {heroes[i]}")
+    for i, hero in enumerate(heroes, start=1):
+        print(f"{i}. {hero}")
         
 def randHeroChoice():
     randHero = choice(heroes)
