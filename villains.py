@@ -15,18 +15,27 @@ class Villain(Character):
     def _ability_damage(self):
         """Return damage based on the villain's ability."""
         if self.ability == "Force Choke":
-            return random.randint(10, 20)
+            return random.randint(12, 22)
+        elif self.ability == "Lightsaber Slash":
+            return random.randint(15, 25)
         elif self.ability == "Lightning Strike":
             return random.randint(12, 18)
+        elif self.ability == "Force Lightning":
+            return random.randint(18, 30)
         elif self.ability == "Dark Side Blast":
-            return random.randint(15, 25)
+            return random.randint(20, 35)
+        elif self.ability == "Sith Fury":
+            return random.randint(15, 30)
         elif self.ability == "Double Saber Attack":
             return random.randint(10, 20)
+        elif self.ability == "Sith Rage":
+            return random.randint(25, 40)
         elif self.ability == "Explosive Rocket":
             return random.randint(20, 30)
+        elif self.ability == "Jetpack Dive":
+            return random.randint(18, 28)
         else:
             return 0  # Default case if ability isn't recognized
-
 
 def printVillains():
     for i, villain in enumerate(villains, start=1):
