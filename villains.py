@@ -1,4 +1,4 @@
-from random import random
+from random import choice, randint
 
 villains = ["Darth Vader", "Count Dooku", "Darth Sidious", "Darth Maul", "Jango Fett"]
 HEALTH = 100
@@ -8,9 +8,9 @@ def printVillains():
         print(f"{i + 1}. {villains[i]}")
         
 def randVillainChoice():
-    randVillain = random.choice(villains)
+    randVillain = choice(villains)
     return randVillain
 
 def enemyDamage():
-    damage = random.randint(0, 10)
+    damage = randint(0, 10)
     return damage

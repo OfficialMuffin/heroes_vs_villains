@@ -1,6 +1,6 @@
 import player, heroes, villains
 
-def game():
+def run():
 # Character Selection
     HoV = input('\nPlease select Heroes or Villains (h/v): ')
     if HoV == 'h':
