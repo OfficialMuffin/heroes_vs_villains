@@ -1,6 +1,5 @@
 # Heroes_vs_Villains
 
-
 DISCLAIMER: This program has no affiliation with Star Wars. it is purely a fan made project
 
 Welcome to Heroes vs. Villains! This Python-based game lets you choose your favorite hero or villain from the Star Wars universe and engage in epic battles. Each character comes with a set of unique abilities, and you must carefully manage your cooldowns, health, and tactics to outsmart your opponent.
@@ -24,91 +23,94 @@ To run the project, you'll need to have Python 3.x installed. You can download P
 To clone this repository to your local machine, use the following command:
 
 ```bash
-git clone https://github.com/yourusername/star-wars-battle-simulator.git
-cd star-wars-battle-simulator
+git clone https://github.com/OfficialMuffin/heroes_vs_villains.git
+cd heroes_vs_villains
 ```
 
-## Running the Game
+### Running the Game
 
 Once you have the project on your local machine, navigate to the project directory and run the game using Python:
 
-`python game.py`
+```bash
+python game.py
+```
 
 Follow the on-screen prompts to select your character and begin the battle!
 
 ## How to Play
 
-    Select Heroes or Villains: At the start of the game, you will be prompted to choose whether you want to play as a hero or a villain.
-    Choose Your Character: Once you select your faction (Heroes or Villains), you'll choose your character from a list.
-    Battle Mechanics:
-        On your turn, you can either select an ability or make a regular attack.
-        Each ability has a cooldown, so choose carefully.
-        The goal is to defeat your opponent before they defeat you.
-    Cooldowns: After using an ability, it will go on cooldown, and you’ll need to wait before you can use it again.
+1. **Select Heroes or Villains:** At the start of the game, you will be prompted to choose whether you want to play as a hero or a villain.
+2. **Choose Your Character:** Once you select your faction (Heroes or Villains), you'll choose your character from a list.
+3. **Battle Mechanics:**
+    - On your turn, you can either select an ability or make a regular attack.
+    - Each ability has a cooldown, so choose carefully.
+    - The goal is to defeat your opponent before they defeat you.
+4. **Cooldowns:** After using an ability, it will go on cooldown, and you’ll need to wait before you can use it again.
 
 ## Characters & Abilities
+
 ### Heroes
 
-    Luke Skywalker
-        Force Push: Deals 10-20 damage.
-        Lightsaber Strike: Deals 15-25 damage.
+1. **Luke Skywalker**
+   - Force Push: Deals 10-20 damage.
+   - Lightsaber Strike: Deals 15-25 damage.
+   
+2. **Leia Organa**
+   - Blaster Shot: Deals 5-15 damage.
+   - Grenade Toss: Deals 20-30 damage.
 
-    Leia Organa
-        Blaster Shot: Deals 5-15 damage.
-        Grenade Toss: Deals 20-30 damage.
+3. **Obi-Wan Kenobi**
+   - Force Mind Trick: Deals 10-20 damage.
+   - Lightsaber Defense: Deals 7-14 damage.
 
-    Obi-Wan Kenobi
-        Force Mind Trick: Deals 10-20 damage.
-        Lightsaber Defense: Deals 7-14 damage.
-
-    Han Solo
-        Quick Draw: Deals 7-17 damage.
-        Blaster Barrage: Deals 18-25 damage.
+4. **Han Solo**
+   - Quick Draw: Deals 7-17 damage.
+   - Blaster Barrage: Deals 18-25 damage.
 
 ### Villains
 
-    Darth Vader
-        Force Choke: Deals 12-22 damage.
-        Lightsaber Slash: Deals 15-25 damage.
+1. **Darth Vader**
+   - Force Choke: Deals 12-22 damage.
+   - Lightsaber Slash: Deals 15-25 damage.
+   
+2. **Count Dooku**
+   - Lightning Strike: Deals 12-18 damage.
+   - Force Lightning: Deals 18-30 damage.
+   
+3. **Darth Sidious**
+   - Dark Side Blast: Deals 20-35 damage.
+   - Sith Fury: Deals 15-30 damage.
+   
+4. **Darth Maul**
+   - Double Saber Attack: Deals 10-20 damage.
+   - Sith Rage: Deals 25-40 damage.
 
-    Count Dooku
-        Lightning Strike: Deals 12-18 damage.
-        Force Lightning: Deals 18-30 damage.
-
-    Darth Sidious
-        Dark Side Blast: Deals 20-35 damage.
-        Sith Fury: Deals 15-30 damage.
-
-    Darth Maul
-        Double Saber Attack: Deals 10-20 damage.
-        Sith Rage: Deals 25-40 damage.
-
-    Jango Fett
-        Explosive Rocket: Deals 20-30 damage.
-        Jetpack Dive: Deals 18-28 damage.
+5. **Jango Fett**
+   - Explosive Rocket: Deals 20-30 damage.
+   - Jetpack Dive: Deals 18-28 damage.
 
 ## Project Structure
 
-Heroes vs. Villains/
+```
+heroes_vs_villains
 │
 ├── game.py          # Main game logic
 ├── heroes.py        # Hero characters and abilities
 ├── villains.py      # Villain characters and abilities
 ├── character.py     # Base class for characters
 └── README.md        # Project documentation
+```
 
 ## Contributing
 
 We welcome contributions to improve the game! If you have any suggestions, improvements, or bug fixes, feel free to create an issue or submit a pull request.
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature/your-feature).
-    Make your changes and commit them (git commit -am 'Add new feature').
-    Push to your branch (git push origin feature/your-feature).
-    Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to your branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
